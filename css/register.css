@@ -1,0 +1,49 @@
+*{
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f0f0f0;
+}
+
+#registration_form {
+width: 500px;
+margin: 50px auto;
+padding: 20px;
+background-color: #fff;
+border: 1px solid #ddd;
+border-radius: 5px;
+}
+
+#registration_form h1 {
+text-align: center;
+margin-bottom: 30px;
+}
+
+#registration_form label {
+display: block;
+margin-bottom: 5px;
+}
+
+#registration_form input[type="text"],
+#registration_form input[type="email"],
+#registration_form input[type="password"] {
+width: 100%;
+padding: 10px;
+margin-bottom: 10px;
+border: 1px solid #ddd;
+border-radius: 5px;
+}
+
+#registration_form button[type="button"] {
+width: 100%;
+padding: 10px;
+background-color: #4CAF50;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+#registration_form button[type="button"]:hover {
+background-color: #3e8e41;
+}
